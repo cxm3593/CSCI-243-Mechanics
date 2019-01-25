@@ -1,0 +1,27 @@
+Lab 1: System Intro
+Activity 2: questions2.txt, main/circle code : 30 points total
+Name: <<< YOUR NAME HERE >>>
+
+8. Given the program files main.c, circle.h and circle.c:
+
+    a.) What commands will compile the source files into object files?
+        
+        <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+        gcc -ggdb -std=c99 -wall -Wextra -pedantic -c <filename>
+        -c is to compile it into object files
+        
+    b.) What command will link the object files
+        into an executable named broken?
+        
+        <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+        gcc -std=c99 -o broken <filename>.o
+        
+    c.) Why does the program compile but fail to link?
+    
+        <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+        Because the a function name getArea was wrong in circle.c where it is getAreas so it could not be found.
+
+
